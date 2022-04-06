@@ -1,3 +1,27 @@
-* {
-    color: red;
+
+/* changa-one-regular - latin */
+@font-face {
+    font-family: 'Changa One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/changa-one-v16-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('../fonts/changa-one-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/changa-one-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/changa-one-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/changa-one-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/changa-one-v16-latin-regular.svg#ChangaOne') format('svg'); /* Legacy iOS */
+}
+
+
+// Ajouter les première polices la prochaine fois car jai pas réussi
+
+body
+{
+    font-family: 'Changa One'
+    background-color: #fdfffc;
+    font-weight: 400%;
+    font-size: 100%;
+    line-height: 1.4;
+    color: #011627;
 }

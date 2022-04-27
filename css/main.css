@@ -14,14 +14,55 @@
 }
 
 
-// Ajouter les première polices la prochaine fois car jai pas réussi
+
+
+/*************************
+    STYLES GENERAUX
+***************************/
+
 
 body
 {
     font-family: 'Changa One'
     background-color: #fdfffc;
-    font-weight: 400%;
+    font-weight: 400;
     font-size: 100%;
     line-height: 1.4;
     color: #011627;
 }
+
+
+h1
+{
+    font-size : 2rem;
+    margin-bottom: 1em;
+}
+
+h2
+{
+    font-size : 1.5rem;
+    margin-bottom: 0.75em;
+}
+
+p
+{
+    line-height: 1.5;
+}
+
+a
+{
+    color: red;
+    text-decoration: none;
+}
+
+img
+{
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+
+/*************************
+    ENTÊTE DU SITE
+***************************/

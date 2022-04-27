@@ -122,11 +122,29 @@ header nav ul li a
    color: #fdfffc;
     font-weight: bold;
     padding: 15px 15px;
+    transition: color 1s;
 }
 
 /* Lorsque que le lien est survoler il devient bleue */
 header nav ul li a:hover
 {
     color: #2ec4b6;
-    transition: color 1s;
+}
+
+
+/***********************************************
+                 PAGE INFORMATION
+************************************************/
+
+.page-information main img
+{
+    border-radius: 50%;
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+.page-informatin h1
+{
+    text-align: center;
 }

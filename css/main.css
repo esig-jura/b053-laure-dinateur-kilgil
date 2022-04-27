@@ -16,9 +16,9 @@
 
 
 
-/*************************
-    STYLES GENERAUX
-***************************/
+/*******************************************
+               STYLES GENERAUX
+********************************************/
 
 
 body
@@ -63,6 +63,70 @@ img
 }
 
 
-/*************************
-    ENTÊTE DU SITE
-***************************/
+/***********************************************
+                 ENTÊTE DU SITE
+************************************************/
+ header
+ {
+     text-align: center;
+     background-color: #011627;
+     padding-top: 5px;
+     margin-bottom: 3opx;
+ }
+
+ header .nom
+ {
+     color: #2ec4b6;
+     font-size: 1.75rem;
+     font-family: 'Changa One', cursive;
+     font weight: 400;
+     line-height: 0.8;
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+     padding: 10px;
+     margin: 1rem 0;
+ }
+
+ header .metier
+ {
+     margin-top: -5px;
+     font-weight: bold;
+ }
+
+ header nav
+ {
+     padding: 10px 0;
+     margin: 20px 0 0;
+ }
+
+ header nav ul
+ {
+     list-style-type: none;
+     padding: 0;
+     margin: 0 10px;
+ }
+
+header nav ul li
+{
+display: inline;
+}
+
+header nav ul li.accueil
+{
+    display: none;
+}
+
+
+header nav ul li a
+{
+   color: #fdfffc;
+    font-weight: bold;
+    padding: 15px 15px;
+}
+
+/* Lorsque que le lien est survoler il devient bleue */
+header nav ul li a:hover
+{
+    color: #2ec4b6;
+    transition: color 1s;
+}

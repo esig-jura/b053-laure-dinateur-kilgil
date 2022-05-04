@@ -148,3 +148,46 @@ header nav ul li a:hover
 {
     text-align: center;
 }
+
+
+/***********************************************
+                 Pied de page du site
+************************************************/
+
+footer
+{
+    text-align: center;
+
+    padding-top: 50px;
+}
+
+footer nav
+{
+    margin-bottom: 1rem;
+}
+
+footer nav ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer nav ul li
+{
+    display: inline-block;
+}
+
+footer nav ul li img
+{
+    width: 50px;
+    margin: 0 15px; /* 0 haut/bas  et 15px gauche droite */
+    filter: grayscale(100);  /* grise l'image */
+    transition: filter 500ms ease-out; /* temps du degrisement */
+}
+
+
+footer nav ul li img:hover
+{
+    filter: grayscale(0);  /* Degrise l'image */
+}
